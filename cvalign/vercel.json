@@ -1,0 +1,13 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "cd FRONTEND && npm install && npm run build",
+  "outputDirectory": "FRONTEND/dist",
+  "installCommand": "cd FRONTEND && npm install",
+  "cleanUrls": false,
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ]
+}
