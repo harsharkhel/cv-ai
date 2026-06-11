@@ -6,6 +6,14 @@ The application lives in [`cvalign/`](cvalign/). See [cvalign/README.md](cvalign
 
 ## Quick start (local)
 
+From the repository root, you can start the frontend directly:
+
+```bash
+npm run dev
+```
+
+For the full stack (frontend + backend), use:
+
 ```bash
 cd cvalign
 bash scripts/dev-local.sh

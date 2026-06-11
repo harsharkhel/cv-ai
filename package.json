@@ -1,0 +1,11 @@
+{
+  "name": "cv-ai-root",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npm --prefix cvalign/FRONTEND run dev -- --host 0.0.0.0",
+    "build": "npm --prefix cvalign/FRONTEND run build",
+    "lint": "npm --prefix cvalign/FRONTEND run lint",
+    "dev:full": "bash cvalign/scripts/dev-local.sh"
+  }
+}

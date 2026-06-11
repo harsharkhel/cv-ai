@@ -1,6 +1,0 @@
-{
-  "name": "CVAlign AI",
-  "description": "AI-powered resume analyzer platform. Upload your resume, check ATS score, detect missing keywords, analyze job-fit, view suggestions, and track resume improvement history.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
